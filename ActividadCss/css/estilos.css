@@ -1,0 +1,18 @@
+body{
+}
+
+li{
+    display: inline;
+    background-color: red;
+    color: yellow;
+    width: 100px;
+    padding: 220px 130px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5px;
+    font-size: 40px;
+}
+
+.etiqueta{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(175, 175, 109, 0.863);
+}
+
+#etiquetas{
+    background-color: darksalmon;
+    width: 80%;
+    color:midnightblue;
+}
+.destacado{
+    background-color: gold;
+}
+
+li{
+    display: inline;
+    padding: 8px; 
+    border: 1px solid crimson;
+    margin: 2px;
+    background-color: darkgreen;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px black;
+}
+
+li:hover{    /*esto es para el fondo del boton*/
+    background-color: rgb(223, 50, 223);
+    color:black
+}

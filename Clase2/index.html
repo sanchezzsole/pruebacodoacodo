@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline;
+        }
+
+        body{
+            background-color: aqua;
+        }
+
+        h1{
+            background-color: cadetblue;
+            padding: 50px;
+            border: 5px solid darkblue;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div style="width:50%"><!--El div es un bloque, asi q hace un SALTO DE LINEA siempre, arriba y abajo-->
+        <h1>Dibujos y Pinturas</h1> 
+        <ul>
+            <li><a href="#video">Ir a video</a></li>
+            <li><a href="#formulario">Ir a formulario</a></li> 
+            <li><a href="#imagen">Ir a fotografias</a></li>  
+            <li><a href="#masopciones">Ir a galeria</a></li> 
+            <li><a href="#descargas">Ir a descargas</a></li>           
+    
+        </ul>
+
+        <div id="descargas">
+            <h2>Descargar PDF grabados y pintura</h2>
+            <a href="pdf/453823797-Como-Hacer-Grabados-y-Pinturas-Heather-Amery.pdf" target="_blank" download="" <!-- este download es para guardar directamente --> Aqui</a>
+        </div>
+
+    <h2 title="Video Carpani">Video artista</h2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/F9Cxt_SDrPc" title="Video Carpani" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- para colocar video desde nuestro archivo es asi:
+    <video src="./videos..... y hay q colocarle todos los atributos"></video>-->
+
+    <form id="formulario" action="pagina2/index.html" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password"> 
+        <input type="submit" value="Enter">
+    </form>
+
+    <h2>Residencia</h2>
+    <label for="radio">Capital Federal</label>
+    <input type="radio" name="radio" id="radio">
+    <label for="radio">Gran Buenos Aires</label>
+    <input type="radio" name="radio" id="radio">
+
+    <select name="" id="">
+        <option>Item 1</option>
+        <option>Item 2</option>
+        <option>Item 3</option>
+    </select>
+
+    <label for="">Lista html</label>
+    <label for="">Body</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Script</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Head</label>
+    <input type="checkbox" name="" id="">
+
+
+      <p><b> <i>Lorem ipsum dolor </i> </b>  sit amet consectetur, adipisicing elit. Nisi sunt maxime vero vel error esse et consectetur fugiat enim? Consequatur ratione repellat similique sed consequuntur? Enim quam molestiae eum error!</p>
+   
+
+    <div id="masopciones">  <!--Esto aparece asi cuando pones div#masopciones ENTER, asi escribirlo-->
+        <h2>Imágenes</h2> 
+        <img id="imagen" widt="300px" height="300" src="img/Carpani-1.jpg" alt="Carpani">
+
+     
+    
+
+    </div>  
+</div>
+
+</body>
+</html>
